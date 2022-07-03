@@ -1,0 +1,34 @@
+register:
+    path: /api/auth/register
+    controller: App\Controller\AppUserController::register
+    methods: POST
+
+article_index:
+    path: /api/article
+    controller: App\Controller\ArticleController::index
+    methods: GET
+
+article_create:
+    path: /api/article
+    controller: App\Controller\ArticleController::create
+    methods: POST
+
+category_index:
+    path: /api/category
+    controller: App\Controller\CategoryController::index
+    methods: GET
+
+category_create:
+    path: /api/category
+    controller: App\Controller\CategoryController::create
+    methods: POST
+
+like_show:
+    path: /api/article/{id}/like
+    controller: App\Controller\LikeController::index
+    methods: GET
+
+like:
+    path: /api/article/{id}/like
+    controller: App\Controller\LikeController::like
+    methods: POST
