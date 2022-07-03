@@ -1,5 +1,11 @@
 # Тестовое задание (PITCH) 
 
+## Технологии:
+1. PHP 8
+2. Symfony 6
+3. PostgreSql 13
+4. Docker
+
 ## Запуск проекта:
 1. docker-compose up
 2. docker exec testapp-php-cli composer install
